@@ -1,0 +1,6 @@
+﻿services:
+  carforum:
+    image: carforum
+    build:
+      context: .
+      dockerfile: CarForum/Dockerfile
